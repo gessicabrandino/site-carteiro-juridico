@@ -38,14 +38,3 @@ def sobre():
 @app.route("/contato")
 def contato():
   return menu + "Sugestões, escreva para: gessica.brandino@grupofolha.com.br"
-
-@app.route("/coleta") #Função para raspar e filtras notícias
-def coleta():
-  
-
-@app.route("/arquivo") #Função para guardar as notícias em uma planilha e gerar a lista de envio
-def arquivo():
- 
-
-@app.route("/carteiro") #Função para formatar a mensagem em html e mandar por email
-def carteiro():
